@@ -77,7 +77,7 @@ export default function Chat() {
         <Input
           placeholder="Enter your message..."
           value={input}
-          onChange={(event) => setInput(event.target.value)}
+          onChange={(event:React.ChangeEvent<HTMLInputElement>) => setInput(event.target.value)}
           onKeyDown={(event) => {
             if (event.key === "Enter") sendMessage();
           }}
