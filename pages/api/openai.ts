@@ -2,7 +2,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { Configuration, OpenAIApi } from "openai";
 
 const config = new Configuration({
-    apiKey: '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'
+    apiKey: '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'
 });
 
 const openAI = new OpenAIApi(config);
