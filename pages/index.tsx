@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Center >
       <Box>
-      <Heading className='my-5 text-white text-center'>Welcome to Eve Chat Demo</Heading>
+      <Heading className='my-5  text-center'>Welcome to Eve Chat Demo</Heading>
       <OpenAI />
     </Box>
     </Center>

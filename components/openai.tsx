@@ -40,7 +40,7 @@ export default function Chat() {
       p={4}
       boxShadow="md"
     >
-      <Box mb={4} textAlign="center" fontWeight="bold" className="font-semibold text-2xl text-white">
+      <Box mb={4} textAlign="center" fontWeight="bold" className="font-semibold text-2xl">
         EveAI Chat
       </Box>
 
@@ -75,7 +75,6 @@ export default function Chat() {
 
       <Box>
         <Input
-          className="text-white"
           placeholder="Enter your message..."
           value={input}
           onChange={(event) => setInput(event.target.value)}
